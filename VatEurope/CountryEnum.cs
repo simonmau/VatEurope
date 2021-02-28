@@ -10,6 +10,7 @@ namespace VatEurope
     {
         public static readonly CountryEnum AT = new CountryEnum(1, "AT", new AT_Checksum());
         public static readonly CountryEnum BE = new CountryEnum(2, "BE", new BE_Checksum());
+        public static readonly CountryEnum HR = new CountryEnum(3, "HR", new HR_Checksum());
 
         private CountryEnum(int id, string code, IChecksum checksum) : base(id)
         {

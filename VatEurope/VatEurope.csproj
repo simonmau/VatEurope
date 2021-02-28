@@ -10,7 +10,7 @@
     <NeutralLanguage>en</NeutralLanguage>
     <Description>a small library to validate vat-numbers in europe</Description>
     <RepositoryUrl>https://github.com/simonmau/VatEurope</RepositoryUrl>
-    <Version>1.0.0.1</Version>
+    <Version>1.0.0.2</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 

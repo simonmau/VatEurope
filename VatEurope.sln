@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VatEurope", "VatEurope\VatEurope.csproj", "{748F9352-5123-4C5B-866B-ED16F2B64A1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VatEurope", "VatEurope\VatEurope.csproj", "{748F9352-5123-4C5B-866B-ED16F2B64A1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VatEurope.Test", "VatEurope.Test\VatEurope.Test.csproj", "{4C86F4DA-6A1C-4721-BDC5-CCADEADF5CF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{748F9352-5123-4C5B-866B-ED16F2B64A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{748F9352-5123-4C5B-866B-ED16F2B64A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{748F9352-5123-4C5B-866B-ED16F2B64A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C86F4DA-6A1C-4721-BDC5-CCADEADF5CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C86F4DA-6A1C-4721-BDC5-CCADEADF5CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C86F4DA-6A1C-4721-BDC5-CCADEADF5CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C86F4DA-6A1C-4721-BDC5-CCADEADF5CF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

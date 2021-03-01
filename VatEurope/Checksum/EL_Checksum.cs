@@ -2,9 +2,9 @@
 
 namespace VatEurope.Checksum
 {
-    internal sealed class HR_Checksum : IChecksum
+    internal sealed class EL_Checksum : IChecksum
     {
-        private const string _regexFullString = @"^HR[0-9]{11}$";
+        private const string _regexFullString = @"^EL[0-9]{9}$";
 
         public bool IsValidChecksum(string vat)
         {

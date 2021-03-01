@@ -6,7 +6,7 @@ namespace VatEurope.Test
     [TestFixture]
     public sealed class AT_Tests
     {
-        private readonly CountryEnum _country = CountryEnum.AT;
+        private readonly CountryEnum _country = CountryEnum.Austria;
 
         [TestCase("ATU73952234")]
         [TestCase("ATU73519007")]

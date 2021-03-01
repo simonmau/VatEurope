@@ -4,19 +4,18 @@ using NUnit.Framework;
 namespace VatEurope.Test
 {
     [TestFixture]
-    public sealed class BE_Tests
+    public sealed class LU_Tests
     {
-        private readonly CountryEnum _country = CountryEnum.Belgium;
+        private readonly CountryEnum _country = CountryEnum.Luxembourg;
 
-        [TestCase("BE0776091951")]
+        [TestCase("LU10000356")]
         public void TestValidVat(string validVat)
         {
             _country.IsValidChecksum(validVat).Should().BeTrue();
         }
 
         [TestCase("nonono")]
-        [TestCase("BE 0776091951")]
-        [TestCase("BE 077 609 1951")]
+        [TestCase("LUA0000356")]
         public void TestInvalidVat(string invalidVat)
         {
             _country.IsValidChecksum(invalidVat).Should().BeFalse();

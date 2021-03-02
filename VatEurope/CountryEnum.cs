@@ -1,8 +1,5 @@
 ﻿using Enum.Ext;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using VatEurope.Checksum;
 
 namespace VatEurope

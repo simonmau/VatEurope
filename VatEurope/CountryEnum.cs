@@ -1,6 +1,7 @@
 ﻿using Enum.Ext;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using VatEurope.Checksum;
 
@@ -47,5 +48,7 @@ namespace VatEurope
         public string Code { get; private set; }
 
         public bool IsValidChecksum(string vat) => _checksum.IsValidChecksum(vat);
+
+        public static CountryEnum GetByCode(string code) => List.SingleOrDefault(e => e.Code == code);
     }
 }

@@ -16,10 +16,8 @@ namespace VatEurope
         public static readonly CountryEnum Spain = new CountryEnum(6, "ES", new ES_Checksum());
         public static readonly CountryEnum Finland = new CountryEnum(7, "FI", new FI_Checksum());
         public static readonly CountryEnum French = new CountryEnum(8, "FR", new FR_Checksum());
-
-        //public static readonly CountryEnum Ireland = new CountryEnum(9, "IE", new IE_Checksum());
+        public static readonly CountryEnum Ireland = new CountryEnum(9, "IE", new IE_Checksum());
         public static readonly CountryEnum Italy = new CountryEnum(10, "IT", new IT_Checksum());
-
         public static readonly CountryEnum Luxembourg = new CountryEnum(11, "LU", new LU_Checksum());
         public static readonly CountryEnum Netherlands = new CountryEnum(12, "NL", new NL_Checksum());
         public static readonly CountryEnum Portugal = new CountryEnum(13, "PT", new PT_Checksum());

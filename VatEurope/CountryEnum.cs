@@ -32,6 +32,7 @@ namespace VatEurope
         public static readonly CountryEnum Latvia = new CountryEnum(20, "LV", new LV_Checksum());
         public static readonly CountryEnum Malta = new CountryEnum(21, "MT", new MT_Checksum());
         public static readonly CountryEnum Poland = new CountryEnum(22, "PL", new PL_Checksum());
+        public static readonly CountryEnum Slovenia = new CountryEnum(23, "SI", new SI_Checksum());
 
         public static readonly CountryEnum HR = new CountryEnum(999, "HR", new HR_Checksum());
 

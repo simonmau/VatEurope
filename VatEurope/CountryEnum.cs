@@ -34,8 +34,9 @@ namespace VatEurope
         public static readonly CountryEnum Poland = new CountryEnum(22, "PL", new PL_Checksum());
         public static readonly CountryEnum Slovenia = new CountryEnum(23, "SI", new SI_Checksum());
         public static readonly CountryEnum Slovakia = new CountryEnum(24, "SK", new SK_Checksum());
-        public static readonly CountryEnum Romania = new CountryEnum(25, "RO", new RO_Checksum());
-        public static readonly CountryEnum HR = new CountryEnum(26, "HR", new HR_Checksum());
+        public static readonly CountryEnum Bulgaria = new CountryEnum(25, "BG", new BG_Checksum());
+        public static readonly CountryEnum Romania = new CountryEnum(26, "RO", new RO_Checksum());
+        public static readonly CountryEnum HR = new CountryEnum(27, "HR", new HR_Checksum());
 
         private CountryEnum(int id, string code, IChecksum checksum) : base(id)
         {

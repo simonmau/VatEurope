@@ -5,7 +5,7 @@ namespace VatEurope.Impl
 {
     internal sealed class VatCheckerImpl : IVatChecker
     {
-        public bool ValidateChecksum(string vatin)
+        public bool IsValidChecksum(string vatin)
         {
             if (string.IsNullOrEmpty(vatin))
             {
@@ -28,7 +28,7 @@ namespace VatEurope.Impl
         {
             #region CHECKING FOR ERROR
 
-            if (!ValidateChecksum(vatin))
+            if (!IsValidChecksum(vatin))
             {
                 return new VatResponseItem();
             }

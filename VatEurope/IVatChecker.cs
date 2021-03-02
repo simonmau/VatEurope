@@ -2,10 +2,8 @@
 
 namespace VatEurope
 {
-    public interface IVatChecker
+    public interface IVatChecker : IChecksum
     {
         Task<VatResponseItem> CheckOnline(string vatin, string requestingVatin);
-
-        bool ValidateChecksum(string vatin);
     }
 }

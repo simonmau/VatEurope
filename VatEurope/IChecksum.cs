@@ -2,6 +2,6 @@
 {
     public interface IChecksum
     {
-        bool IsValidChecksum(string vat);
+        bool IsValidChecksum(string vatin);
     }
 }

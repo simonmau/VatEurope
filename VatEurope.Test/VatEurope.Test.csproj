@@ -6,6 +6,8 @@
     <LangVersion>9.0</LangVersion>
 
     <IsPackable>false</IsPackable>
+
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
   </PropertyGroup>
 
   <ItemGroup>
